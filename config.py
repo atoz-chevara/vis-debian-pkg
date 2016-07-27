@@ -1,45 +1,30 @@
 
 ARCHS = ['i386', 'amd64']
 
-SECTIONS = ('main', 'universe', 'multiverse', 'restricted')
+SECTIONS = ('main', 'contrib', 'non-free')
 
 DISTS = [
-    'warty', 'hoary', 'breezy', 'dapper', 'edgy', 'feisty', 'gutsy', 'hardy',
-    'intrepid', 'jaunty', 'karmic', 'lucid', 'maverick', 'natty', 'oneiric',
-    'precise', 'quantal', 'raring', 'saucy', 'trusty', 'utopic', 'vivid',
-    'wily', 'xenial', 'yakkety'
+    'hamm', 'slink', 'potato', 'woody', 'sarge', 'etch',
+    'lenny', 'squeeze', 'wheezy', 'jessie', 'stretch', 'sid'
 ]
 
 REPOS = {
-    'warty': 'old',
-    'hoary': 'old',
-    'breezy': 'old',
-    'dapper': 'old',
-    'edgy': 'old',
-    'feisty': 'old',
-    'gutsy': 'old',
-    'hardy': 'old',
-    'intrepid': 'old',
-    'jaunty': 'old',
-    'karmic': 'old',
-    'lucid': 'old',
-    'maverick': 'old',
-    'natty': 'old',
-    'oneiric': 'old',
-    'precise': 'current',
-    'quantal': 'old',
-    'raring': 'old',
-    'saucy': 'old',
-    'trusty': 'current',
-    'utopic': 'old',
-    'vivid': 'current',
-    'wily': 'current',
-    'xenial': 'current',
-    'yakkety': 'current',
+    'hamm': 'old',
+    'slink': 'old',
+    'potato': 'old',
+    'woody': 'old',
+    'sarge': 'old',
+    'etch': 'old',
+    'lenny': 'old',
+    'squeeze': 'old',
+    'jessie': 'current',
+    'wheezy': 'current',
+    'stretch': 'current',
+    'sid': 'current',
 }
 
 BASE_URLS = {
-    'current': 'http://id.archive.ubuntu.com/ubuntu',
-    'old': 'http://old-releases.ubuntu.com/ubuntu'
+    'current': 'http://ftp.us.debian.org/debian',
+    'old': 'http://archive.debian.org/debian'
 }
 
